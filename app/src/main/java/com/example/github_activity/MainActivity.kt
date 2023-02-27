@@ -12,8 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        // Add The Data To Firestore
-        // Test To Update 
+        // Test To Update
         save.setOnClickListener {
             var name = myName.text.toString()
             var email = email.text.toString()
